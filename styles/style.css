@@ -84,3 +84,15 @@ body{
     color: #52525A;
     line-height: 28px;
 }
+/* responsive design */
+@media screen and (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+    body{
+        padding: 52px 20px;
+    }
+    .side{
+        max-width: 100%;
+    }
+}
